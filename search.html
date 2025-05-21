@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HoA6</title>
+  <link rel="stylesheet" href="search.css">
+</head>
+<body>
+  <header>
+    <h1>Zodiac Signs</h1>
+    <figure>
+      <img src="search_img/zodyak.png" alt="Zodiac" class="profile-pic">
+      <figcaption>Find your Sign!</figcaption>
+    </figure>
+    <input type="text" id="searchInput" placeholder="Search Here...">
+    <button type="button" id="searchButton">Search</button>
+  </header>
+
+<section class="mayn" id="zodiacSection" style="display: none;">
+    <table id="zodiacTable">
+      <thead>
+        <tr>
+          <th>Zodiac Sign</th>
+          <th>Symbol</th>
+          <th>Element</th>
+          <th>Modality</th>
+          <th>Ruling Planet</th>
+          <th>Personality Traits</th>
+          <th>Strengths</th>
+          <th>Weaknesses</th>
+          <th>Compatible Signs</th>
+        </tr>
+      </thead>
+      <tbody id="zodiacBody">
+      </tbody>
+    </table>
+    <p id="noResults" style="display: none;">No results found.</p>
+  
+    <h2>References:</h2>
+    <ul>
+        <li>Astrology.com - <br>https://www.astro.com</li>
+        <li>Cafe Astrology - <br>https://www.cafeastrology.com</li>
+        <li>The Astrology Podcast - <br>https://theastrologypodcast.com</li>
+    </ul>
+</section>
+
+<div class="button-container">
+    <a class="home" href="home.html">Home</a>
+</div>
+
+<footer>
+    <p>&copy; Jerwin Dulguime. All Rights Reserved.</p>
+    <p>Address: L-8-12 Tropical Vill., Brgy. San Francisco, General Trias City, Cavite</p>
+    <p>Contacts: +63-949-9564-601</p>
+</footer>
+
+<script src="zodiac.js"></script>
+
+</body>
+</html>
